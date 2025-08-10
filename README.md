@@ -8,8 +8,6 @@ These are mini projects that I created as a part of learning CPP on my journey t
 A simple text-based Minesweeper game for macOS, written in C++ and designed for CLion.
 Fixed board: **8 rows × 5 columns**, **10 mines**.
 
----
-
 ### How to Play
 
 Commands are 3 characters:
@@ -20,8 +18,6 @@ Commands are 3 characters:
 
 Example: `f12` (flag row 1, col 2).
 Game ends when all mines are flagged (win) or a mine is revealed (loss).
-
----
 
 ### Build & Run
 
@@ -35,7 +31,6 @@ g++ -std=c++17 -O2 -o minesweeper main.cpp
 **With CLion**
 Open the project, replace `main.cpp` with the provided source, and run.
 
----
 
 ### Display Symbols
 
@@ -45,12 +40,10 @@ Open the project, replace `main.cpp` with the provided source, and run.
 * `&` : Incorrect flag (shown after losing)
 * `0..8` : Adjacent mine count
 
----
+### What I Learned
 
-### Notes
-
-* Uses individual variables (`c00`, `c01`, …) instead of arrays (for learning purposes).
-* Mines are placed randomly; uses `srand(0)` for reproducible runs.
-* No automatic flood-fill for zero cells.
-
-
+* Using constants for game states instead of “magic numbers”
+* Writing modular code with helper functions
+* Implementing basic game logic with conditionals
+* Working with random number generation in C++
+* Managing game state without arrays (using individual variables)
