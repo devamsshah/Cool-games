@@ -1,11 +1,16 @@
-# MineSweeper (C++ Console)
+#Intro
+These are mini projects that I created as a part of learning CPP on my journey to explore Computer Science. Here are short descriptions of the projects that are in this repo. 
+
+
+
+## MineSweeper (C++ Console)
 
 A simple text-based Minesweeper game for macOS, written in C++ and designed for CLion.
 Fixed board: **8 rows × 5 columns**, **10 mines**.
 
 ---
 
-## How to Play
+### How to Play
 
 Commands are 3 characters:
 
@@ -18,7 +23,7 @@ Game ends when all mines are flagged (win) or a mine is revealed (loss).
 
 ---
 
-## Build & Run
+### Build & Run
 
 **With g++**
 
@@ -32,7 +37,7 @@ Open the project, replace `main.cpp` with the provided source, and run.
 
 ---
 
-## Display Symbols
+### Display Symbols
 
 * `-` : Unknown cell
 * `!` : Flagged mine
@@ -42,7 +47,7 @@ Open the project, replace `main.cpp` with the provided source, and run.
 
 ---
 
-## Notes
+### Notes
 
 * Uses individual variables (`c00`, `c01`, …) instead of arrays (for learning purposes).
 * Mines are placed randomly; uses `srand(0)` for reproducible runs.
