@@ -1,4 +1,4 @@
-#Intro
+# Intro
 These are mini projects that I created as a part of learning CPP on my journey to explore Computer Science. Here are short descriptions of the projects that are in this repo. 
 
 
