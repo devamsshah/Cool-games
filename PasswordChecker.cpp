@@ -1,6 +1,6 @@
 /****************************
  *
- *Project Name: password checket
+ *Project Name: password checker
  *Created By: Devam Shah
  *Date: 10/14/2022
  *
